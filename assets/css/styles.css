@@ -1,0 +1,58 @@
+@import url("../fonts/Nunito-Italic-VariableFont_wght.ttf");
+@import url("../fonts/Nunito-VariableFont_wght.ttf");
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 50px; /*for responsive design*/
+  padding-top: 0;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+}
+header li {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-flex;
+  float: left;
+}
+header li button {
+  font-size: 24px;
+  background-color: #ec4067;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 10px 24px;
+  color: white;
+}
+
+.wrapper {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+header a {
+  color: grey;
+  text-decoration: none;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav {
+  float: right;
+  min-height: 50px;
+  margin-top: 30px;
+}
+.logo {
+  float: left;
+}
+.logo span {
+  color: #ec4067;
+}
