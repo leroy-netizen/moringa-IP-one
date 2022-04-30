@@ -1,19 +1,43 @@
-/** @format */
+/**
+ * /* =========================================================
+ *   	FONTS
+ *     =========================================================
+ *
+ * @format
+ */
 
 @import url('../fonts/Nunito-Italic-VariableFont_wght.ttf');
 @import url('../fonts/Nunito-VariableFont_wght.ttf');
 
+/* =========================================================
+	MAIN STYLES
+   =========================================================
+ */
+html {
+	height: 100%;
+}
 body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
+	text-rendering: optimizeLegibility;
 }
 
 header {
 	min-height: 50px; /*for responsive design*/
 	padding-top: 0;
 }
+footer {
+	height: 100px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1eeee;
+}
+
 header ul {
 	padding: 0;
 	margin: 0;
