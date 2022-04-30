@@ -28,15 +28,6 @@ header {
 	min-height: 50px; /*for responsive design*/
 	padding-top: 0;
 }
-footer {
-	height: 100px;
-
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	background-color: #f1eeee;
-}
 
 header ul {
 	padding: 0;
@@ -59,6 +50,10 @@ button {
 	padding: 10px 34px;
 	color: white;
 	cursor: pointer;
+}
+h4 {
+	font-size: larger;
+	font-weight: lighter;
 }
 .wrapper {
 	width: 85%;
@@ -94,6 +89,9 @@ nav {
 }
 .info p {
 	margin-bottom: 150px;
+	font-size: larger;
+	font-weight: lighter;
+	line-height: 40px;
 }
 .info button {
 	margin-left: 0;
@@ -110,3 +108,47 @@ nav {
 .info-img {
 	float: right;
 }
+.explore {
+	border: 1px solid #ec4067;
+	background-color: inherit;
+	border-radius: 0;
+	color: #ec4067;
+}
+footer {
+	height: 100px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1eeee;
+}
+
+.stories span {
+	background-color: lightgrey;
+}
+.stories main {
+	float: left;
+}
+.stories img {
+	float: left;
+	margin-right: 80px;
+	width: 50%;
+}
+.story-text {
+	margin-top: 90px;
+}
+.story-text p {
+	font-family: 'Nunito', 'sans-serif';
+	font-size: larger;
+	font-weight: lighter;
+	line-height: 40px;
+}
+.orientation {
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-left: 40px;
+}
+/* .story-text p {
+	color: green;
+} */
