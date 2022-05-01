@@ -134,6 +134,11 @@ nav {
 	width: 50%;
 	height: 500px;
 	margin-top: 40px;
+	overflow: hidden;
+}
+.story-item p {
+	width: 60%;
+	line-height: 2;
 }
 .story-item-1 {
 	background-image: url(../images/image\ 2.png);
@@ -149,17 +154,18 @@ nav {
 }
 .story-item-2 div {
 	align-items: center;
-	margin-left: 50px;
-	/* margin-top: 90px; */
+	margin-left: 90px;
+	margin-top: 60px;
 }
 .story-item-2b div {
 	align-items: center;
 	margin-right: 50px;
-	/* margin-top: 90px; */
+	margin-top: 90px;
 }
 .story-item-2c div {
 	align-items: center;
-	margin-left: 50px;
+	margin-left: 90px;
+	margin-top: 60px;
 }
 .number {
 	margin-left: 95%;
