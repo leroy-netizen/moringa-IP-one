@@ -20,7 +20,7 @@ Images used are in the assets folder
 
 ```
 Directory tree
-.
+.Moringa-IP-one
 ├── assets
 │   ├── css
 │   │   └── styles.css
