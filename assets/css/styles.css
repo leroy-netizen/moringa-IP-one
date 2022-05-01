@@ -198,7 +198,6 @@ nav {
 }
 .card {
 	width: 23%;
-
 	margin: 20px;
 }
 .card-img {
@@ -210,7 +209,12 @@ nav {
 .card-img h3 {
 	color: #fff;
 	padding-top: 200px;
+	padding-left: 8px;
 }
+.card h2 {
+	color: #ec4067;
+}
+
 .card-1 {
 	background-image: url(../images/image\ 5.png);
 }
@@ -222,6 +226,11 @@ nav {
 }
 .card-4 {
 	background-image: url(../images/image\ 8.png);
+}
+/* project section */
+.story-item-1bp {
+	background-image: url(../images/image\ 9.png);
+	background-size: 100% 100%;
 }
 footer {
 	height: 100px;
