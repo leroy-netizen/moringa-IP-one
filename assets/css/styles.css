@@ -53,7 +53,7 @@ button {
 }
 h4 {
 	font-size: larger;
-	font-weight: lighter;
+	font-weight: 600;
 }
 .wrapper {
 	width: 85%;
@@ -97,11 +97,11 @@ nav {
 	margin-bottom: 5px;
 }
 .info h4 {
-	font-weight: lighter;
+	font-weight: 600;
 }
 .info h3 {
 	color: #ec4067;
-	font-weight: lighter;
+	font-weight: 590;
 	font-size: 2rem;
 }
 .info-img {
@@ -231,6 +231,16 @@ nav {
 .story-item-1bp {
 	background-image: url(../images/image\ 9.png);
 	background-size: 100% 100%;
+}
+.pad {
+	margin-bottom: -40px;
+}
+.project-link {
+	text-decoration: none;
+	color: #ec4067;
+}
+.project {
+	margin-bottom: 50px;
 }
 footer {
 	height: 100px;
