@@ -17,7 +17,7 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito, sans-serif';
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
@@ -83,7 +83,6 @@ nav {
 
 /* Hero section */
 .info {
-	/* background-color: green; */
 	float: left;
 	width: 50%;
 }
@@ -114,41 +113,52 @@ nav {
 	border-radius: 0;
 	color: #ec4067;
 }
+
+.story-title {
+	background-color: grey;
+	display: flex;
+}
+/* stories section */
+.stories-container {
+	display: flex;
+}
+.story-item {
+	width: 50%;
+	height: 500px;
+	margin-top: 40px;
+}
+.story-item-1 {
+	margin-right: 10px;
+	background-image: url(../images/image\ 2.png);
+	background-size: 100% 100%;
+}
+.story-item-2 {
+	margin-left: 30px;
+}
+.story-item-2 div {
+	align-items: center;
+	/* margin-top: 90px; */
+}
+/*
+.story-item-2 h4 {
+	margin-left: 30px;
+}
+.story-item-2 p {
+	margin-left: 30px;
+	margin-top: 40px;
+}
+.story-item-2 button {
+	margin-left: 30px;
+	margin-top: 50px;
+} */
+
 footer {
 	height: 100px;
 
 	display: flex;
 	flex-direction: row;
+	text-transform: capitalize;
 	align-items: center;
 	justify-content: center;
 	background-color: #f1eeee;
 }
-
-.stories span {
-	background-color: lightgrey;
-}
-.stories main {
-	float: left;
-}
-.stories img {
-	float: left;
-	margin-right: 80px;
-	width: 50%;
-}
-.story-text {
-	margin-top: 90px;
-}
-.story-text p {
-	font-family: 'Nunito', 'sans-serif';
-	font-size: larger;
-	font-weight: lighter;
-	line-height: 40px;
-}
-.orientation {
-	font-weight: bold;
-	text-transform: capitalize;
-	margin-left: 40px;
-}
-/* .story-text p {
-	color: green;
-} */
